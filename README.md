@@ -10,9 +10,24 @@ The goal is to design and build a small embedded system that uses:
 
 and to write a MicroPython program that reads the inputs and produces at least **three distinct output behaviors** using the outputs.
 
+
 ---
 
 ## Inputs and Outputs
+
+Some possible inputs and outputs:
+
+**Inputs**
+
+- buttons (you could use multiple)
+- potentiometer (you could use multiple of these as well)
+- Joystick (really just 2 potienometers and a button in one)
+
+**Outputs**
+
+- LEDs (you could use multiple)
+- Passive Buzzer (do a little online research)
+ 
 
 ### Input Devices
 
