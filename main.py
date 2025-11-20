@@ -29,48 +29,6 @@ import time
 # output3 = ...
 
 
-# =====================
-# Helper Functions
-# =====================
-
-def read_inputs():
-    """Read all input devices and return their values.
-
-    Modify this function to match your actual inputs.
-    """
-    # Example structure:
-    # button_state = button.value()
-    # pot_value = pot.read_u16()
-    # return button_state, pot_value
-
-    # Placeholder:
-    return None, None
-
-
-def update_outputs(input1_value, input2_value):
-    """Update outputs based on input values.
-
-    Implement at least three distinct output behaviors here.
-    For example:
-    - Turn on/off LEDs based on button state
-    - Change brightness or speed based on potentiometer
-    - Trigger patterns or sounds
-    """
-    # Example pseudocode:
-    # if input1_value == 0:
-    #     led1.value(1)
-    # else:
-    #     led1.value(0)
-    #
-    # if input2_value > THRESHOLD:
-    #     led2.value(1)
-    # else:
-    #     led2.value(0)
-    #
-    # buzzer.duty_u16(input2_value)
-    # buzzer.freq(500)
-
-    pass
 
 
 # =====================
@@ -79,8 +37,8 @@ def update_outputs(input1_value, input2_value):
 
 def main():
     while True:
-        input1_value, input2_value = read_inputs()
-        update_outputs(input1_value, input2_value)
+        # read inputs
+        # use if statements to determine outputs 
         time.sleep(0.05)
 
 
